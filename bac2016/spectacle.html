@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="controle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spectacle</title>
+</head>
+
+<body>
+    <form action="ajout.php" method="post" name="a1">
+        <fieldset>
+            <legend>Ajout d'un spectacle:</legend>
+            <table>
+                <tr>
+                    <td><label for="">piece:</label></td>
+                    <td><label for="">Salle:</label></td>
+                    <td><label for="">Date du spectacle:</label></td>
+                </tr>
+                <tr>
+                    <td><select name="list1" id="list1">
+                            <option value="">Chisir un oiece</option>
+                            <option value="">le tresor</option>
+                            <option value="">le peche du succes</option>
+                            <option value="">le gardien</option>
+                            <option value="">les soldate de la lune </option>
+                            <option value="">l'etermal retour </option>
+                        </select></td>
+                    <td><select name="list2" id="list2">
+                            <option value="">Chisir une salle </option>
+                            <option value=""> Theatre municipal</option>
+                            <option value="">Quatrieme art </option>
+                            <option value="">L'etoile du nord</option>
+                            <option value=""> Espace Artisto</option>
+                        </select></td>
+                    <td><input type="date" name="date" id="date"> <label for="">(JJ/MM/AAAA)</label></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Annuler"></td>
+                    <td><input type="submit" value="Ajouter" onclick="ajouter()"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

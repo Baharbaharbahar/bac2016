@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+
+}
+section{
+    height: 500px;
+    width: 78%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 6px;
+}
+article{
+    width: 20%;
+    background-color: #f5f5f5;
+}
+ul,li{
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+}
+iframe{
+    width: 100%;
+    height: 340px;
+}
+a{
+    color:#333;
+    font-size: 1.2em;
+    transition: .3s all ease-in-out;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    
+
+}
+legend{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #9e9e9e;
+}
+fieldset{
+    margin-bottom: 20px;
+}
+label ,input,option{
+    display: block;
+    float: left;
+    font-weight: bold;
+}
